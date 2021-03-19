@@ -8,7 +8,7 @@ export const Calendar = (props) => {
     const { events, EventContentComponent } = props
     const [open, setOpen] = useState(false)
     const [evData, setEvData] = useState({})
-    const [currentView, setCurrentView] = useState('agendaDay')
+    const [currentView, setCurrentView] = useState('month')
     const [currentDate, setCurrentDate] = useState(new Date())
     const _handleClick = (info, jsEvent, view) => {
         jsEvent.preventDefault();
