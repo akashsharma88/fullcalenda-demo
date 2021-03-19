@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Calendar } from './components/Calendar';
+import { data } from './sample.json';
+import { useState, useEffect } from 'react';
+import { EventContent } from './components/EventContent';
 function App() {
+  const [eventData, setEventData] = useState([]);
+  useEffect(() => {
+    if (data?.allAppointments) {
+      const d = data.allAppointments.edges.map(({ node }) => ({
+        id: node.id,
+        title: `${node.patient.firstName} ${node.patient.lastName}`,
+        start: `${node.bookingDate}T${node.timeslot.startTime}`,
+        end: `${node.bookingDate}T${node.timeslot.endTime}`,
+        extendedProps: node
+      })
+      )
+      setEventData(d)
+
+    }
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="App-header">Calendar app</h1>
+      <div style={{padding:10}}>
+      <Calendar events={eventData} EventContentComponent={EventContent} height={800} />
+      </div>
     </div>
   );
 }

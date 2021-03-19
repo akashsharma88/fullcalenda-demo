@@ -1,0 +1,488 @@
+{
+  "data": {
+    "allAppointments": {
+      "edges": [
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjEwMw==",
+            "appointmentId": "TWK0000103",
+            "patient": {
+              "id": "VXNlcjo5NzY=",
+              "firstName": "Preeti",
+              "lastName": "Sahni",
+              "age": 23,
+              "contact": "491 570 156",
+              "gender": "female",
+              "email": "preeti.sahni3@gmail.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjo5NzY=",
+              "firstName": "Preeti",
+              "lastName": "Sahni",
+              "age": 23,
+              "gender": "female",
+              "contact": "491 570 156",
+              "email": "preeti.sahni3@gmail.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjU5",
+              "name": "Test Staff"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjk3",
+              "name": "AIIMS"
+            },
+            "status": "BOOKED",
+            "paymentDone": false,
+            "amount": 0,
+            "isSame": false,
+            "bookingDate": "2021-03-22",
+            "bookingType": "CUSTOMER",
+            "createdAt": "2021-03-17T13:05:13.603291+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjEwNzQ=",
+              "startTime": "11:00:00",
+              "endTime": "13:15:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNzU=",
+              "name": "Skin Peels"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjEwMg==",
+            "appointmentId": "TWK0000102",
+            "patient": {
+              "id": "VXNlcjo5NzY=",
+              "firstName": "Preeti",
+              "lastName": "Sahni",
+              "age": 23,
+              "contact": "491 570 156",
+              "gender": "female",
+              "email": "preeti.sahni3@gmail.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjo5NzY=",
+              "firstName": "Preeti",
+              "lastName": "Sahni",
+              "age": 23,
+              "gender": "female",
+              "contact": "491 570 156",
+              "email": "preeti.sahni3@gmail.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjU5",
+              "name": "Test Staff"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjk3",
+              "name": "AIIMS"
+            },
+            "status": "BOOKED",
+            "paymentDone": false,
+            "amount": 0,
+            "isSame": false,
+            "bookingDate": "2021-03-22",
+            "bookingType": "CUSTOMER",
+            "createdAt": "2021-03-17T13:03:59.941126+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjEwNzQ=",
+              "startTime": "11:00:00",
+              "endTime": "11:15:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNzU=",
+              "name": "Skin Peels"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjEwMQ==",
+            "appointmentId": "TWK0000101",
+            "patient": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "contact": "123456781",
+              "gender": "other",
+              "email": "admin@example.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "BOOKED",
+            "paymentDone": false,
+            "amount": 0,
+            "isSame": true,
+            "bookingDate": "2021-03-15",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-17T12:37:21.214641+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNg==",
+              "startTime": "17:30:00",
+              "endTime": "18:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjEwMA==",
+            "appointmentId": "TWK0000100",
+            "patient": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "contact": "123456781",
+              "gender": "other",
+              "email": "admin@example.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjQy",
+              "name": "Dr. Graffy"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjk3",
+              "name": "AIIMS"
+            },
+            "status": "EXPIRED",
+            "paymentDone": true,
+            "amount": 0,
+            "isSame": false,
+            "bookingDate": "2021-03-17",
+            "bookingType": "CUSTOMER",
+            "createdAt": "2021-03-16T14:24:40.352635+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjEwOTY=",
+              "startTime": "11:30:00",
+              "endTime": "12:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNzQ=",
+              "name": "Skin Needling"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk5",
+            "appointmentId": "TWK000099",
+            "patient": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "contact": "123456781",
+              "gender": "other",
+              "email": "admin@example.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjU0",
+              "name": "Dr. Vishal"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjEzOA==",
+              "name": "Sarvodya"
+            },
+            "status": "EXPIRED",
+            "paymentDone": true,
+            "amount": 450,
+            "isSame": true,
+            "bookingDate": "2021-03-15",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-16T10:48:48.068677+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNg==",
+              "startTime": "17:30:00",
+              "endTime": "18:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk4",
+            "appointmentId": "TWK000098",
+            "patient": {
+              "id": "VXNlcjo5NzY=",
+              "firstName": "Preeti",
+              "lastName": "Sahni",
+              "age": 23,
+              "contact": "491 570 156",
+              "gender": "female",
+              "email": "preeti.sahni3@gmail.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "BOOKED",
+            "paymentDone": true,
+            "amount": 730,
+            "isSame": true,
+            "bookingDate": "2021-03-15",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-16T10:42:22.839523+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNg==",
+              "startTime": "17:30:00",
+              "endTime": "18:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk3",
+            "appointmentId": "TWK000097",
+            "patient": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "contact": "123456781",
+              "gender": "other",
+              "email": "admin@example.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "CANCEL",
+            "paymentDone": true,
+            "amount": 0,
+            "isSame": true,
+            "bookingDate": "2021-03-15",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-09T06:50:13.863735+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNg==",
+              "startTime": "17:30:00",
+              "endTime": "18:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk2",
+            "appointmentId": "TWK000096",
+            "patient": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "contact": "123456781",
+              "gender": "other",
+              "email": "admin@example.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "CANCEL",
+            "paymentDone": true,
+            "amount": 150.5,
+            "isSame": true,
+            "bookingDate": "2021-03-15",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-08T06:58:37.759970+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNg==",
+              "startTime": "17:30:00",
+              "endTime": "18:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk1",
+            "appointmentId": "TWK000095",
+            "patient": {
+              "id": "VXNlcjo5MDA=",
+              "firstName": "Hemant123",
+              "lastName": "Arora",
+              "age": 35,
+              "contact": "9876543456",
+              "gender": "female",
+              "email": "kuldeep23@gmail.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "COMPLETE",
+            "paymentDone": false,
+            "amount": 100,
+            "isSame": false,
+            "bookingDate": "2021-03-12",
+            "bookingType": "ADMIN",
+            "createdAt": "2021-03-08T06:55:36.080848+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjkwNA==",
+              "startTime": "16:30:00",
+              "endTime": "17:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "QXBwb2ludG1lbnROb2RlOjk0",
+            "appointmentId": "TWK000094",
+            "patient": {
+              "id": "VXNlcjo4Mjc=",
+              "firstName": "Preeti",
+              "lastName": "Sharma",
+              "age": 36,
+              "contact": "8976565434",
+              "gender": "female",
+              "email": "preeti.sharma69@gmail.com"
+            },
+            "bookedBy": {
+              "id": "VXNlcjoyMQ==",
+              "firstName": "Matta",
+              "lastName": "Master",
+              "age": 13,
+              "gender": "other",
+              "contact": "123456781",
+              "email": "admin@example.com"
+            },
+            "doctor": {
+              "id": "U3RhZmZOb2RlOjYy",
+              "name": "Katyani"
+            },
+            "clinic": {
+              "id": "U2hvcEluZm9Ob2RlOjE0NQ==",
+              "name": "Apollo Medix12"
+            },
+            "status": "CANCEL",
+            "paymentDone": true,
+            "amount": 0,
+            "isSame": false,
+            "bookingDate": "2021-03-08",
+            "bookingType": "CUSTOMER",
+            "createdAt": "2021-03-07T17:07:35.222247+00:00",
+            "timeslot": {
+              "id": "VGltZVNsb3ROb2RlOjk3Mw==",
+              "startTime": "13:30:00",
+              "endTime": "14:00:00"
+            },
+            "treatmentType": {
+              "id": "UHJvZHVjdDoxNjk=",
+              "name": "LED Red Light Therapy  "
+            }
+          }
+        }
+      ]
+    }
+  }
+}

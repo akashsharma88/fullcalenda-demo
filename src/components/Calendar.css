@@ -1,0 +1,23 @@
+.btn-round{
+    background: #fff;
+      border: 1px solid lightgrey;
+      padding: 9px 12px;
+      height: 33px;
+      border-radius: 50%;
+  }
+  .event-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: lightgrey;
+  }
+  .display-flex-column{ 
+    display: flex;
+    flex-direction: column;
+    flex: 1 
+  }
+  .display-flex-wrrap{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap 
+  }
